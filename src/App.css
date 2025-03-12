@@ -1,0 +1,37 @@
+.App{
+  text-align: center;
+}
+
+.Area{
+  margin: 0 auto;
+  width: 800px;
+  height: 470px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+}
+
+.textAreabutton{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  width: 250px;
+  height: 70px;
+}
+
+.QRarea{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: 5px black;
+  border-radius: 15px;
+  width: 300px;
+  height: 300px;
+}
+
+.QRcode{
+  width: 245px;
+  height: 245px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
