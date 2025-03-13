@@ -35,3 +35,19 @@
   margin: 0 auto;
   padding-top: 20px;
 }
+
+@media only screen and (max-width: 480px) { /* for mobile */ 
+
+  .Area{
+    margin: 0 auto;
+    width: 222px;
+    height: 435px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: unset;
+    gap: 70px;
+  }
+}
